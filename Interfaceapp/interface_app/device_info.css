@@ -1,0 +1,129 @@
+body {
+    /*background-color: rgba(177, 181, 178, 0.5);*/
+    background-color :rgba(21, 25, 64,0.1);
+    /*height: 1500px;*/
+    font-family: "Times New Roman", Times, serif;
+}
+
+.title {
+    text-align: center;
+}
+
+.formname {
+    margin: 20px 0px;
+    display-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+span {
+    width: 50%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgba(177, 181, 178, 0.5);
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: rgba(177, 181, 178, 0.1);
+    word-wrap: break-word;
+}
+
+input[type="text"] {
+    background-color: rgba(177, 181, 178, 0.6);
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+* input:focus {
+    outline: none;
+}
+
+label {
+    /*text-align: left;
+ width: 60px;
+ padding: 20px;
+ display: inline-block;*/
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+    padding: 10px 20px;
+    margin: 8px 0;
+}
+
+.inside {
+    text-align: center;
+    width: 40%;
+    padding: 20px;
+    /*background-color: rgba(177, 181, 178,0.5);*/
+    /*box-shadow: 4px 4px rgba(177, 181, 178, 1.0);*/
+    position: absolute;
+    margin-left: 18%;
+}
+
+
+/*
+.form-line-active input:focus, .form-line-active textarea:focus {
+border: 1px solid green !important;
+box-shadow: 0 0 3px green !important;
+-moz-box-shadow: 0 0 3px green !important;
+-webkit-box-shadow: 0 0 3px green !important;
+}
+
+input:focus, textarea:focus, select:focus {
+outline-offset: 0px !important;
+outline: none !important;
+}
+*/
+
+
+/*br {
+ clear: left;
+}
+
+body {
+    margin:50px 0px; 
+    padding:15px;
+    text-align:center;
+    align:center;
+}*/
+.vertical-menu {
+    width: 50px; /* Set a width if you like */
+    height: 700px;
+  }
+  
+  .vertical-menu a {
+    background-color: #eee; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+  }
+  
+  .vertical-menu a.active {
+    background-color: #04AA6D; /* Add a green color to the "active/current" link */
+    color: white;
+  }
+
+  .vertical-menu {
+    float: left;
+    width: 15%;
+    background-color: #ccc;
+  }
+
+  .device_info{
+    float: left;
+    width: 80%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+

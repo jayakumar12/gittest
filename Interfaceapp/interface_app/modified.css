@@ -1,0 +1,171 @@
+#table1, #table4, #table3, #table0, #table2 {
+  border: none;
+   border-top: 3px solid rgba(71, 72, 74,0.6);
+
+    
+}
+
+table{
+/*width:100%;*/
+/*text-align: left;*/
+
+}
+
+#table0{
+  padding :10px;
+}
+#table0 td{
+  width:20%;
+}
+
+#table0 span:hover,.first-menu{
+  background-color: aquamarine;
+  border-radius: 5px;
+  text-decoration: none;
+  
+}
+
+#table0 span{
+  text-decoration: underline;
+  text-decoration-color: blue;
+  padding:2px 15px;
+  font-size: 20px;
+}
+
+#table1 td{
+  width: 100px;
+}
+
+/*#table4 table :nth-child(1),#table4 table :nth-child(2),#table4 table:nth-child(3){
+  width:15%;
+}
+#table4 table :nth-child(4),#table4  table:nth-child(5){
+  width:25%;
+}*/
+#table4 td{
+  width:18%;
+  padding: 0px;
+  margin: 0px;
+}
+#ip6-config td,#ip4-config td{
+width: 18%;
+/*margin-left: 5px;*/
+
+/*padding:1px 25px;*/
+}
+
+select {
+  width:50%;
+  box-sizing:border-box;
+  display:inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  /*padding: 8px 8px;*/
+  
+  }
+   input[type="text"],input[type="password"] {
+    width:50%;
+    box-sizing:border-box;
+    display:inline-block;
+    /*border: 1px solid #ccc;*/
+    border: none;
+    border-bottom: 2px solid rgba(74, 73, 73,0.6);
+    box-sizing: border-box;
+    padding: 0px;
+    display: table-cell;
+  
+    margin-left: 8px;
+    /*padding: 8px 8px;*/
+    
+    }
+    * input:focus{
+      
+      outline: none;
+    }
+
+  #buttons {
+    text-align: center;
+  }
+
+  #buttons button {
+    padding :10px;
+     width : 8%;
+     border-radius: 5px;
+     margin-left: 30px;
+     border: 1px solid rgba(71, 72, 74,0.6);
+  }
+
+   #delete {
+   /* background-color: rgba(199, 68, 28,0.5);*/
+    position:absolute;
+    left:180px;
+  }
+  #save:hover{
+    background-color: rgba(48, 48,48,0.6);
+    color:white;
+  }
+  
+  .name {
+    font-size : 20px;
+  }
+  .plus{
+    text-align: center;
+    float:right;
+    font-size : 30px;
+    width : 30px;
+    background-color:rgba(58, 156, 158,0.6);
+    border-radius: 50px;
+  }
+
+   #addip4, #addip6 {
+    background-color:rgba(106, 224, 70,0.6) ;
+    border-radius: 10px;
+  }
+  
+  .vertical-menu {
+    width: 40px; /* Set a width if you like */
+    height: 700px;
+  }
+  
+  .vertical-menu a {
+    background-color: #eee; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+  }
+  
+  .vertical-menu a.active {
+    background-color: #04AA6D; /* Add a green color to the "active/current" link */
+    color: white;
+  }
+
+  .vertical-menu {
+    float: left;
+    width: 15%;
+    background-color: #ccc;
+    
+  }
+
+  .interface-page {
+    float: left;
+    width: 80%;
+    margin-left: 15px;
+  }
+
+
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
